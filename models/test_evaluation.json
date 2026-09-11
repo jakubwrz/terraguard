@@ -1,0 +1,642 @@
+{
+  "accuracy": 0.6415,
+  "macro_f1": 0.6207,
+  "weighted_f1": 0.6675,
+  "classification_report": {
+    "low_risk": {
+      "precision": 0.7692307692307693,
+      "recall": 0.625,
+      "f1-score": 0.6896551724137931,
+      "support": 16.0
+    },
+    "medium_risk": {
+      "precision": 0.8571428571428571,
+      "recall": 0.5806451612903226,
+      "f1-score": 0.6923076923076923,
+      "support": 31.0
+    },
+    "high_risk": {
+      "precision": 0.3157894736842105,
+      "recall": 1.0,
+      "f1-score": 0.48,
+      "support": 6.0
+    },
+    "accuracy": 0.6415094339622641,
+    "macro avg": {
+      "precision": 0.647387700019279,
+      "recall": 0.7352150537634409,
+      "f1-score": 0.6206542882404952,
+      "support": 53.0
+    },
+    "weighted avg": {
+      "precision": 0.7693180702118139,
+      "recall": 0.6415094339622641,
+      "f1-score": 0.6674720984935689,
+      "support": 53.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      10,
+      3,
+      3
+    ],
+    [
+      3,
+      18,
+      10
+    ],
+    [
+      0,
+      0,
+      6
+    ]
+  ],
+  "test_samples_count": 53,
+  "error_count": 19,
+  "samples": [
+    {
+      "file": "photo_1788023348822.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "high_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.2737,
+        "medium_risk": 0.3072,
+        "high_risk": 0.4191
+      }
+    },
+    {
+      "file": "photo_1788024708015.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "low_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.4999,
+        "medium_risk": 0.4989,
+        "high_risk": 0.0012
+      }
+    },
+    {
+      "file": "photo_1788026239161.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0309,
+        "medium_risk": 0.8322,
+        "high_risk": 0.1369
+      }
+    },
+    {
+      "file": "photo_1788026117364.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.2041,
+        "medium_risk": 0.6157,
+        "high_risk": 0.1802
+      }
+    },
+    {
+      "file": "photo_1788025906953.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0435,
+        "medium_risk": 0.8977,
+        "high_risk": 0.0588
+      }
+    },
+    {
+      "file": "photo_1788022636558.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "high_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.0417,
+        "medium_risk": 0.476,
+        "high_risk": 0.4824
+      }
+    },
+    {
+      "file": "photo_1788025514875.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "high_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.0055,
+        "medium_risk": 0.4142,
+        "high_risk": 0.5804
+      }
+    },
+    {
+      "file": "photo_1788026537326.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "high_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.0191,
+        "medium_risk": 0.1359,
+        "high_risk": 0.845
+      }
+    },
+    {
+      "file": "photo_1788025638530.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0495,
+        "medium_risk": 0.8735,
+        "high_risk": 0.077
+      }
+    },
+    {
+      "file": "photo_1788025176120.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.2082,
+        "medium_risk": 0.6718,
+        "high_risk": 0.1199
+      }
+    },
+    {
+      "file": "photo_1788023429237.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "high_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.0091,
+        "medium_risk": 0.0297,
+        "high_risk": 0.9611
+      }
+    },
+    {
+      "file": "photo_1788022869449.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.3949,
+        "medium_risk": 0.5831,
+        "high_risk": 0.022
+      }
+    },
+    {
+      "file": "photo_1787576188080.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0369,
+        "medium_risk": 0.7021,
+        "high_risk": 0.261
+      }
+    },
+    {
+      "file": "photo_1788025001447.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "low_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.6705,
+        "medium_risk": 0.3182,
+        "high_risk": 0.0113
+      }
+    },
+    {
+      "file": "photo_1788025006897.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0185,
+        "medium_risk": 0.9643,
+        "high_risk": 0.0172
+      }
+    },
+    {
+      "file": "photo_1788024709449.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0334,
+        "medium_risk": 0.9243,
+        "high_risk": 0.0422
+      }
+    },
+    {
+      "file": "photo_1788025593098.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0393,
+        "medium_risk": 0.5175,
+        "high_risk": 0.4432
+      }
+    },
+    {
+      "file": "photo_1787576175907.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "high_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.052,
+        "medium_risk": 0.3913,
+        "high_risk": 0.5567
+      }
+    },
+    {
+      "file": "photo_1788025424677.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.1857,
+        "medium_risk": 0.5306,
+        "high_risk": 0.2836
+      }
+    },
+    {
+      "file": "photo_1788026487737.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "high_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.1273,
+        "medium_risk": 0.2604,
+        "high_risk": 0.6123
+      }
+    },
+    {
+      "file": "photo_1788025978372.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0225,
+        "medium_risk": 0.8198,
+        "high_risk": 0.1576
+      }
+    },
+    {
+      "file": "photo_1787576495159.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "high_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.1212,
+        "medium_risk": 0.2657,
+        "high_risk": 0.6131
+      }
+    },
+    {
+      "file": "photo_1788026192335.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0325,
+        "medium_risk": 0.7877,
+        "high_risk": 0.1798
+      }
+    },
+    {
+      "file": "photo_1788021587118.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0042,
+        "medium_risk": 0.9734,
+        "high_risk": 0.0224
+      }
+    },
+    {
+      "file": "photo_1788023352453.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "low_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.671,
+        "medium_risk": 0.2535,
+        "high_risk": 0.0755
+      }
+    },
+    {
+      "file": "photo_1788023520211.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "high_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.0002,
+        "medium_risk": 0.0325,
+        "high_risk": 0.9672
+      }
+    },
+    {
+      "file": "photo_1788023794025.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "high_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.001,
+        "medium_risk": 0.0538,
+        "high_risk": 0.9452
+      }
+    },
+    {
+      "file": "photo_1788026195115.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.1758,
+        "medium_risk": 0.7048,
+        "high_risk": 0.1194
+      }
+    },
+    {
+      "file": "photo_1788024621591.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.1706,
+        "medium_risk": 0.7908,
+        "high_risk": 0.0386
+      }
+    },
+    {
+      "file": "photo_1788020922586.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.2048,
+        "medium_risk": 0.7891,
+        "high_risk": 0.0061
+      }
+    },
+    {
+      "file": "photo_1788025852393.jpg",
+      "true_class": "medium_risk",
+      "pred_class": "medium_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0496,
+        "medium_risk": 0.6252,
+        "high_risk": 0.3252
+      }
+    },
+    {
+      "file": "photo_1788026380487.jpg",
+      "true_class": "low_risk",
+      "pred_class": "low_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.6318,
+        "medium_risk": 0.3638,
+        "high_risk": 0.0044
+      }
+    },
+    {
+      "file": "photo_1788021892426.jpg",
+      "true_class": "low_risk",
+      "pred_class": "medium_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.1172,
+        "medium_risk": 0.8132,
+        "high_risk": 0.0696
+      }
+    },
+    {
+      "file": "photo_1788025996309.jpg",
+      "true_class": "low_risk",
+      "pred_class": "medium_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.4073,
+        "medium_risk": 0.547,
+        "high_risk": 0.0457
+      }
+    },
+    {
+      "file": "photo_1788022058902.jpg",
+      "true_class": "low_risk",
+      "pred_class": "low_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.6911,
+        "medium_risk": 0.2311,
+        "high_risk": 0.0779
+      }
+    },
+    {
+      "file": "photo_1787576358381.jpg",
+      "true_class": "low_risk",
+      "pred_class": "high_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.0816,
+        "medium_risk": 0.1872,
+        "high_risk": 0.7312
+      }
+    },
+    {
+      "file": "photo_1788022541972.jpg",
+      "true_class": "low_risk",
+      "pred_class": "high_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.3173,
+        "medium_risk": 0.0976,
+        "high_risk": 0.5851
+      }
+    },
+    {
+      "file": "photo_1788026443546.jpg",
+      "true_class": "low_risk",
+      "pred_class": "low_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.5432,
+        "medium_risk": 0.375,
+        "high_risk": 0.0819
+      }
+    },
+    {
+      "file": "photo_1788023995418.jpg",
+      "true_class": "low_risk",
+      "pred_class": "low_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.7966,
+        "medium_risk": 0.1724,
+        "high_risk": 0.031
+      }
+    },
+    {
+      "file": "photo_1788025710721.jpg",
+      "true_class": "low_risk",
+      "pred_class": "low_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.9001,
+        "medium_risk": 0.0996,
+        "high_risk": 0.0002
+      }
+    },
+    {
+      "file": "photo_1788025926829.jpg",
+      "true_class": "low_risk",
+      "pred_class": "low_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.789,
+        "medium_risk": 0.1622,
+        "high_risk": 0.0489
+      }
+    },
+    {
+      "file": "photo_1788020784726.jpg",
+      "true_class": "low_risk",
+      "pred_class": "low_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.6221,
+        "medium_risk": 0.0718,
+        "high_risk": 0.3061
+      }
+    },
+    {
+      "file": "photo_1788024747135.jpg",
+      "true_class": "low_risk",
+      "pred_class": "low_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.8371,
+        "medium_risk": 0.1614,
+        "high_risk": 0.0014
+      }
+    },
+    {
+      "file": "photo_1788022013866.jpg",
+      "true_class": "low_risk",
+      "pred_class": "low_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.4672,
+        "medium_risk": 0.1097,
+        "high_risk": 0.4231
+      }
+    },
+    {
+      "file": "photo_1788023992314.jpg",
+      "true_class": "low_risk",
+      "pred_class": "low_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.6454,
+        "medium_risk": 0.3171,
+        "high_risk": 0.0375
+      }
+    },
+    {
+      "file": "photo_1788024051790.jpg",
+      "true_class": "low_risk",
+      "pred_class": "medium_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.2247,
+        "medium_risk": 0.6127,
+        "high_risk": 0.1626
+      }
+    },
+    {
+      "file": "photo_1788023745901.jpg",
+      "true_class": "low_risk",
+      "pred_class": "high_risk",
+      "correct": false,
+      "probabilities": {
+        "low_risk": 0.0104,
+        "medium_risk": 0.0834,
+        "high_risk": 0.9061
+      }
+    },
+    {
+      "file": "photo_1788024879822.jpg",
+      "true_class": "high_risk",
+      "pred_class": "high_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0092,
+        "medium_risk": 0.0514,
+        "high_risk": 0.9394
+      }
+    },
+    {
+      "file": "photo_1788024877472.jpg",
+      "true_class": "high_risk",
+      "pred_class": "high_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0267,
+        "medium_risk": 0.339,
+        "high_risk": 0.6343
+      }
+    },
+    {
+      "file": "photo_1788023958876.jpg",
+      "true_class": "high_risk",
+      "pred_class": "high_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0012,
+        "medium_risk": 0.0146,
+        "high_risk": 0.9842
+      }
+    },
+    {
+      "file": "photo_1788026658213.jpg",
+      "true_class": "high_risk",
+      "pred_class": "high_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0014,
+        "medium_risk": 0.0339,
+        "high_risk": 0.9647
+      }
+    },
+    {
+      "file": "photo_1787576523750.jpg",
+      "true_class": "high_risk",
+      "pred_class": "high_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0,
+        "medium_risk": 0.0074,
+        "high_risk": 0.9926
+      }
+    },
+    {
+      "file": "photo_1788023811356.jpg",
+      "true_class": "high_risk",
+      "pred_class": "high_risk",
+      "correct": true,
+      "probabilities": {
+        "low_risk": 0.0,
+        "medium_risk": 0.0007,
+        "high_risk": 0.9993
+      }
+    }
+  ]
+}

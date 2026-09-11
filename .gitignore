@@ -1,0 +1,35 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+
+# Android / Gradle
+.gradle/
+build/
+app/build/
+*.iml
+.idea/
+local.properties
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Arduino / C++
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.build_artifacts/
