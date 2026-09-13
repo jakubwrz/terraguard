@@ -159,7 +159,7 @@ This transfers the Python stack, ONNX models, and configuration files to the Uno
 ### 4. Run the Rover Service
 SSH into the Linux system on the Uno Q:
 ```bash
-ssh arduino@cookie.local
+ssh arduino@[YOURIP]
 python3 ~/terraguard/python/main.py
 ```
 
